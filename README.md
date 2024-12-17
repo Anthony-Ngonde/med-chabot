@@ -11,3 +11,7 @@
 ```bash
 conda activate medchatbot
 ```
+
+```bash
+pip install -r requirements.txt
+```

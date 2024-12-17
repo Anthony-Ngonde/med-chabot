@@ -1,5 +1,5 @@
 ctransformers==0.2.5 # This library loads the quantized model we will use. We are also able to use Langchain with this library.
 sentence-transformers==2.2.2 # We will be using an embedding model from hugging face to generate our embeddings.
-pinecone-client # THis aids integrate the pinecone vector DB.
-langchain==0.0.225
+pinecone-client # This aids integrate the pinecone vector DB.
+langchain==0.1.15
 flask
