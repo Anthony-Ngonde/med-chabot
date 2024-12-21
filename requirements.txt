@@ -3,3 +3,4 @@ sentence-transformers==2.2.2 # We will be using an embedding model from hugging 
 pinecone-client # This aids integrate the pinecone vector DB.
 langchain==0.1.15
 flask
+pypdf
