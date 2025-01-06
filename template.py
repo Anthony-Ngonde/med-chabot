@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s') 
 
 list_of_files = [
     "src/__init__.py",
@@ -13,8 +13,9 @@ list_of_files = [
     "research/trials.ipynb",
     "app.py",
     "store_index.py",
-    "static",
-    "templates/chat.html"
+    "static/.gitkeep",
+    "templates/chat.html",
+    "test.py"
 ]
 
 
@@ -32,4 +33,4 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
     
     else:
-        logging.info(f"(filename) is already created")
+        logging.info(f"{filename} is already created")
