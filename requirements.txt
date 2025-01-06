@@ -4,4 +4,5 @@ pinecone-client # This aids integrate the pinecone vector DB.
 langchain==0.1.15
 flask
 pypdf
+python-dotenv
 -e .
